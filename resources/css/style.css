@@ -1,0 +1,83 @@
+body{
+  color: black;
+}
+/* header items */
+header {
+  border-bottom: 1px solid black;
+  background-color: white;  
+  display: flex;
+  align-items: center;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  z-index: 1;
+}
+
+header nav {
+  padding-right: 32px;
+}
+
+/* nav span|a applies to header and footer*/ 
+nav span {
+  display: inline-block;
+  padding: 16px 8px;
+}
+
+nav a {
+  color: black;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 32px;
+}
+
+#logo span {
+  color: MediumAquamarine;
+  padding-left: 8px;
+}
+
+/* content items */
+#content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 96px;
+  width: 100%;
+  height: 512px;
+}
+
+/* footer items */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: MediumAquamarine;
+  font-family: Verdana;
+  font-size: 12px;  
+  margin: auto;
+  width: 100%;
+  height: 320px;
+}
+
+footer .identity-name {
+  display: inline-block;
+  border-right: 2px solid white;
+  color: white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  padding-right: 24px;
+}
+
+footer nav {
+  display: inline-block;
+  padding-left: 16px;
+}
+
