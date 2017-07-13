@@ -43,13 +43,35 @@ nav a {
 }
 
 /* content items */
+div {
+  border: 1px solid blue;
+}
 #content {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  padding-top: 96px;
+  padding-top: 112px;
+  margin: 0 auto 80px auto;
   width: 100%;
   height: 512px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 24px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
 
 /* footer items */
