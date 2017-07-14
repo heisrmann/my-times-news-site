@@ -1,5 +1,8 @@
 body{
+  font-family: Georgia;
+  font-size: 17px;
   color: black;
+  margin: 0;
 }
 /* header items */
 header {
@@ -44,16 +47,24 @@ nav a {
 
 /* content items */
 div {
-  border: 1px solid blue;
+  display: block;
 }
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+}
+
 #content {
   display: flex;
   align-items: flex-start;
-  /*justify-content: center;*/
   padding-top: 112px;
   margin: 0 auto 80px auto;
-  width: 100%;
-  height: 512px;
+  width: 1232px;
 }
 
 .column {
@@ -63,34 +74,46 @@ div {
 }
 
 .column.large {
-  width: 632px;
+  width: 624px;
 }
 
 .column.medium {
-  width: 304px;
+  width: 296px;
 }
 
 .column.small {
   width: 240px;
 }
 
+.story-list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.lead-story  span {
+    margin-left: 24px;
+}
+
 .story {
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
+  display: flex;
+  flex-direction: column;
+  width: 296px;
 }
 
 .image-content {
   color: white;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
-  height: 304px;
+  height: 296px;
   margin-top: 16px;  
   text-align: center;
 }
 
-.text-content {
+.story-list .text-content {
   height: 256px;
 }
 
@@ -99,7 +122,7 @@ div {
     font-size: 40px;
     margin-top: 0;
     text-align: left;
-    width: 632px;
+    width: 624px;
 }
 
 #fall-season {
