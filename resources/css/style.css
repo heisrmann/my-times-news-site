@@ -49,7 +49,7 @@ div {
 #content {
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  /*justify-content: center;*/
   padding-top: 112px;
   margin: 0 auto 80px auto;
   width: 100%;
@@ -63,15 +63,74 @@ div {
 }
 
 .column.large {
-  width: 630px;
+  width: 632px;
 }
 
 .column.medium {
-  width: 300px;
+  width: 304px;
 }
 
 .column.small {
   width: 240px;
+}
+
+.story {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.image-content {
+  color: white;  
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  height: 304px;
+  margin-top: 16px;  
+  text-align: center;
+}
+
+.text-content {
+  height: 256px;
+}
+
+#funny-mom {
+    background-image: url("../images/img-outdoor-champagne-toast.png");
+    font-size: 40px;
+    margin-top: 0;
+    text-align: left;
+    width: 632px;
+}
+
+#fall-season {
+    background-image: url("../images/img-girl-outdoor-fall-season.png");
+}
+
+#camera-research {
+    background-image: url("../images/img-male-hipster-camera.png");
+}
+
+#controlling-cat {
+    background-image: url("../images/img-girl-white-cat.png");
+}
+
+#news-bites h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.bite {
+  background-color: WhiteSmoke;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  color: DimGray;
+  font-family: Verdana;
+  font-size: 12px;
+  display: block;
+  margin-top: -2px;
+  padding: 8px 16px;
 }
 
 /* footer items */
